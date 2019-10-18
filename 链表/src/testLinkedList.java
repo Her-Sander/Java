@@ -1,8 +1,8 @@
 public class testLinkedList {
     public static void main(String[] args) {
-        testAddFirst();
+        //testAddFirst();
         //testAddLast();
-        //testAddIndex();
+        testAddIndex();
         //testContains();
         //testToremove();
         //testToremoveAll();
@@ -34,7 +34,7 @@ public class testLinkedList {
         list.addFirst(3);
         list.addFirst(4);
         list.display();
-        list.addIndex(3,0);
+        list.addIndex(0,0);
         list.display();
     }
     public static void testContains(){

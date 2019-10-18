@@ -73,6 +73,7 @@ public class LinkedList {
         }
         return false;
     }
+    //删除链表中的给定值
     public void remove(int key){
         if(contains(key)==false){
             return;
