@@ -82,7 +82,7 @@ public class TestDemo1 {
 
     public static void main1(String[] args) {
         //=====静态方法只调用一次======
-        //父类静态->子类静态->父类实例父类构造->子类实例子类构造
+        //父类静态->子类静态->父类实例->父类构造->子类实例->子类构造
         Cat cat = new Cat("xiaohua", 18, "famale");
         System.out.println("==============");
         //父类实例父类构造->子类实例子类构造
